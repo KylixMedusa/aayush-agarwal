@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <link rel="stylesheet" href="styles.css">
         <title>Document</title>
     </head>
@@ -21,9 +22,23 @@
             <div class="content">
                 <div class="container">
                     <div class="image"></div>
-                    <div>
-                        <h3>Aayush Agarwal</h3>
-                        <p>Web Developer, Competitive Coder, Designer</p>
+                    <div class="container--div">
+                        <div class="conatiner--contents">
+                            <h2>Aayush Agarwal</h2>
+                            <span class="txt-type" data-wait="3000" data-words='["Web Developer","Competitive Coder", "Designer", "Musician", "Painter"]'></span>
+                            <div class="socials">
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-github"></i></a>
+                                <a href=""><i class="fa fa-behance"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <a href="Aayush-Agarwal-Resume.pdf" download="Aayush-Agarwal-Resume.pdf">Download CV &nbsp;<i class="fa fa-download"></i></a>
+                            <a style="cursor:pointer;" onclick="opencontacts()">Contact me &nbsp;<i class="fa fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="wrapper" id="wrapper">
@@ -56,5 +71,6 @@
             </div>
         </div>
         <script src="script.js"></script>
+        <script src="typewriter.js"></script>
     </body>
 </html>
