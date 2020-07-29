@@ -1,0 +1,92 @@
+#map {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+  }
+.contact .map--container{
+    position: relative;
+    padding:30px;
+}
+.contact .map--container::before{
+    content:'';
+    background: radial-gradient(ellipse at left, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
+    height:2px;
+    width:100%;
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+}
+.card h2 span{
+    color:blueviolet
+}
+.card h2{
+    position: relative;
+}
+.card h2::before{
+    content:'';
+    display: block;
+    position: absolute;
+    top:8px;
+    left:-8px;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    z-index: 0;
+    background: linear-gradient(135deg, rgba(137, 43, 226, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
+}
+.card--title{
+    padding: 20px 30px;
+}
+.contact .map--container .card--grid{
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr ;
+    grid-gap: 20px;
+}
+.contact .map--container .card--grid li{
+    list-style: none;
+    word-break: break-all;
+    padding: 11px 0px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    position: relative;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* text-align: right; */
+}
+.highlight{
+    background-color: blueviolet;
+    width:max-content;
+    height:max-content;
+    text-align: left;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    color:white;
+    /* display: inline; */
+    word-break: keep-all;
+}
+/* 
+.contact .grid div div p{
+    max-width:50%;
+} */
+.contact .card--grid li::after{
+    content:'';
+    position: absolute;
+    bottom:0;
+    height:2px;
+    width:100%;
+    display: block;
+    background: radial-gradient(ellipse at center, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+@media screen and (max-width:600px){
+    .contact .map--container .card--grid{
+        margin: 30px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

@@ -2,11 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="theme-color" content="#6c7ebb">
+        <meta name="theme-color" content="#7276d1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="contact.css">
         <title>Document</title>
     </head>
     <body>
@@ -63,9 +64,21 @@
                             <div>Blog</div>
                         </div>
                     </div>
-                    <div class="card" id="Contact">
+                    <div class="card contact" id="Contact">
                         <div>
-                            <div>Contact</div>
+                            <div>
+                                <div class="card--title"><h2><span>Get</span> in Touch</h2></div>
+                                <div class="map--container">
+                                    <div id="map"></div>
+                                    <div class="card--grid">
+                                        <li><p class="highlight">Address.....</p>West Bengal, India</li>
+                                        <li><p class="highlight">Phone.....</p>+91 9679883985</li>
+                                        <li><p class="highlight">Email.....</p>ayush.agarwalmng@gmail.com</li>
+                                        <li><p class="highlight">Freelance.....</p>Available</li>
+                                    </div>
+                                </div>
+                                <div class="card--title"><h2><span>Contact</span> Form</h2></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -73,5 +86,6 @@
         </div>
         <script src="script.js"></script>
         <script src="typewriter.js"></script>
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAja8NsoCX_c5CL7eBi_f_dpH1xyGAggFI&callback=initMap"></script>
     </body>
 </html>
