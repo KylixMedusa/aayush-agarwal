@@ -373,6 +373,7 @@ body{
         width:100%;
         margin-top: 0;
         z-index: 2;
+        box-shadow: 0 2px 10px rgba(128, 128, 128, 0.5);
     }
     .header nav{
         display: flex;
