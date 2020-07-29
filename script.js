@@ -71,17 +71,6 @@ window.addEventListener('scroll',e=>{
                     listitem.classList.remove("active");
                 }
                 menu[index].classList.add("active");
-                currentcard = document.getElementById(menu[index].children[1].innerHTML);
-                if(currentcard != previouscard){
-                    if(lastpreviouscard)
-                        lastpreviouscard.classList.remove("fadeOut");
-                    if(previouscard)
-                        previouscard.classList.remove("fadeIn");
-                    previouscard.classList.add("fadeOut");
-                    currentcard.classList.add("fadeIn");
-                    lastpreviouscard = previouscard;
-                    previouscard = currentcard;
-                }
              
             }
             else if(scrollY >= offsetPositions[4]){
@@ -89,17 +78,6 @@ window.addEventListener('scroll',e=>{
                     listitem.classList.remove("active");
                 }
                 menu[4].classList.add("active");
-                currentcard = document.getElementById(menu[4].children[1].innerHTML);
-                if(currentcard != previouscard){
-                    if(lastpreviouscard)
-                        lastpreviouscard.classList.remove("fadeOut");
-                    if(previouscard)
-                        previouscard.classList.remove("fadeIn");
-                    previouscard.classList.add("fadeOut");
-                    currentcard.classList.add("fadeIn");
-                    lastpreviouscard = previouscard;
-                    previouscard = currentcard;
-                }
             }
             else if(scrollY<offsetPositions[0]){
                 for(var listitem of menu){
