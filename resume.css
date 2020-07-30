@@ -1,0 +1,34 @@
+.resume .resume--container{
+    padding:0 30px;
+}
+.resume .resume--container h3 i{
+    color:blueviolet;
+    margin-right:10px ;
+}
+.resume .card--grid li{
+    word-break: normal;
+}
+
+.resume .card-pill{
+    font-size: small;
+    color:blueviolet;
+    border:2px solid blueviolet;
+    padding:2px 5px;
+    border-radius: 5px;
+    width: max-content;
+}
+.resume .card-pill.pop{
+    background-color: blueviolet;
+    color:white;
+}
+.resume .card--grid h4{
+    margin-top: 10px;
+}
+.resume .card--grid small{
+    color:gray;
+    margin: 20px 0;
+}
+.resume .card--grid p{
+    font-size: 0.9rem;
+    margin-top: 10px;
+}

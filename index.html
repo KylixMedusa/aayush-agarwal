@@ -8,6 +8,7 @@
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="resume.css">
         <title>Document</title>
     </head>
     <body>
@@ -49,9 +50,61 @@
                             <div>About</div>
                         </div>
                     </div>
-                    <div class="card" id="Resume">
+                    <div class="card resume" id="Resume">
                         <div>
-                            <div>Resume</div>
+                            <div>
+                                <div class="card--title"><h2><span>R</span>esume</h2></div>
+                                <div class="resume--container">
+                                    <h3 style="margin-top: 30px;"><i class="fa fa-suitcase"></i>EXPERIENCE</h3>
+                                    <div class="card--grid">
+                                        <li>
+                                            <div class="card-pill pop">2020-Present</div>
+                                            <h4>CSS Developer</h4>
+                                            <small>Codeacious Technologies</small>
+                                            <p>Converting designs into HTML and CSS code for various projects</p>
+                                        </li>
+                                        <li>
+                                            <div class="card-pill pop">2020-Present</div>
+                                            <h4>Front End Developer</h4>
+                                            <small>Mind Webs</small>
+                                            <p>Working on the front end for various projects using Angular and other frameworks</p>
+                                        </li>
+                                        <li>
+                                            <div class="card-pill pop">2020-Present</div>
+                                            <h4>Core Community Member</h4>
+                                            <small>Developers Club KGEC</small>
+                                            <p>Work on various activities of Web Development and involve in development community</p>
+                                        </li>
+                                        <li>
+                                            <div class="card-pill pop">2019-Present</div>
+                                            <h4>Graphic Designer</h4>
+                                            <small>ShutterBug KGEC</small>
+                                            <p>Designing posters and graphics for events and various requirements</p>
+                                        </li>
+                                    </div>
+                                    <h3><i class="fa fa-graduation-cap"></i>EDUCATION</h3>
+                                    <div class="card--grid">
+                                        <li>
+                                            <div class="card-pill pop">2020-Present</div>
+                                            <h4>B.Tech in IT</h4>
+                                            <small>Kalyani Government Engineering College</small>
+                                            <p>Pursuing graduation and expected to complete in 2023</p>
+                                        </li>
+                                        <li>
+                                            <div class="card-pill">2017-2019</div>
+                                            <h4>12th CBSE</h4>
+                                            <small>DAV School(CBSE)</small>
+                                            <p>Completed my 12th with Physics, Chemistry, Mathematics and Computer Science</p>
+                                        </li>
+                                        <li>
+                                            <div class="card-pill">.....2017</div>
+                                            <h4>10th ICSE</h4>
+                                            <small>Saint Paul's School(ICSE)</small>
+                                            <p>Completed my 10th with Computer Science as external subject</p>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="card" id="Works">
@@ -59,9 +112,12 @@
                             <div>Works</div>
                         </div>
                     </div>
-                    <div class="card" id="Blog">
+                    <div class="card blog" id="Blog">
                         <div>
-                            <div>Blog</div>
+                            <div>
+                                <div class="card--title"><h2><span>latest</span> Posts</h2></div>
+                                <div class="blog--image"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="card contact" id="Contact">
@@ -78,6 +134,27 @@
                                     </div>
                                 </div>
                                 <div class="card--title"><h2><span>Contact</span> Form</h2></div>
+                                <form action="">
+                                    <div class="card--grid">
+                                        <div class="input--div">
+                                            <input onfocus="addfocus(this)" onblur="addblur(this)" type="text" name="name" required>
+                                            <label for="name">Name</label>
+                                        </div>
+                                        <div class="input--div">
+                                            <input onfocus="addfocus(this)" onblur="addblur(this)" type="email" name="email" required>
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="input--div">
+                                        <textarea onfocus="addfocus(this)" onblur="addblur(this)" name="Subject" id="subject"></textarea>
+                                        <label for="Subject">Subject</label>
+                                    </div>
+                                    <div class="input--div">
+                                        <textarea onfocus="addfocus(this)" onblur="addblur(this)" name="Your Message" id="message"></textarea>
+                                        <label for="Your Message">Your Message</label>
+                                    </div>
+                                    <input type="submit" value="Send Message" id="submit">
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -86,6 +163,7 @@
         </div>
         <script src="script.js"></script>
         <script src="typewriter.js"></script>
+        <script src="map.js"></script>
         <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAja8NsoCX_c5CL7eBi_f_dpH1xyGAggFI&callback=initMap"></script>
     </body>
 </html>

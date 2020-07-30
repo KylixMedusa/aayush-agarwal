@@ -4,11 +4,11 @@ var lastpreviouscard;
 var currentcard;
 function cardtoggle(item){
     currentcard = document.getElementById(item.children[1].innerHTML);
+    for(var listitem of menu){
+        listitem.classList.remove("active");
+    }
+    item.classList.add("active");
     if(currentcard != previouscard){
-        for(var listitem of menu){
-            listitem.classList.remove("active");
-        }
-        item.classList.add("active");
         if(lastpreviouscard)
             lastpreviouscard.classList.remove("fadeOut");
         if(previouscard)
@@ -18,7 +18,7 @@ function cardtoggle(item){
         lastpreviouscard = previouscard;
         previouscard = currentcard;
     }
-    if(window.innerWidth <= 1000 ){
+    if(window.innerWidth <= 1100 ){
         var offsetPosition = currentcard.offsetTop + document.getElementById('wrapper').offsetTop - 20;
         window.scrollTo({
             top: offsetPosition,
@@ -42,7 +42,7 @@ function opencontacts(){
         lastpreviouscard = previouscard;
         previouscard = currentcard;
     }
-    if(window.innerWidth <= 1000 ){
+    if(window.innerWidth <= 1100 ){
         var offsetPosition = currentcard.offsetTop + document.getElementById('wrapper').offsetTop - 20;
         window.scrollTo({
             top: offsetPosition,
@@ -51,15 +51,28 @@ function opencontacts(){
     }
 }
 window.addEventListener('resize',e=>{
-    if(window.innerWidth <= 1000){
+    if(window.innerWidth <= 1100){
         for(var listitem of menu){
             listitem.classList.remove("active");
         }
     }
+    else{
+        for(var listitem of menu){
+            if(listitem.classList.value != ""){
+                var curr = listitem;
+                break;
+            }
+        }
+        console.log(curr);
+        if(curr)
+            cardtoggle(curr);
+        else
+            cardtoggle(menu[0]);
+    }
 })
 
 window.addEventListener('scroll',e=>{
-    if(window.innerWidth <= 1000){
+    if(window.innerWidth <= 1100){
         var cards = document.getElementById('wrapper').children;
         var offsetPositions = [];
         for(var card of cards){
@@ -89,40 +102,13 @@ window.addEventListener('scroll',e=>{
 })
 
 
-// Initialize and add the map
-function initMap() {
-  var myLatlng = new google.maps.LatLng(26.575724, 88.825255); // <- Your latitude and longitude
-	var styles = [
-	{
-		"featureType": "water",
-		"stylers": [{
-			"color": "#d8dee9"
-		},
-		{
-			"visibility": "on"
-		}]
-	},
-	{
-		"featureType": "landscape",
-		"stylers": [{
-			"color": "#eeeeee"
-		}]
-	}]
+function addfocus(item){
+    if(item.classList.value[0]!="focus")
+        item.classList.add("focus");
+}
 
-	var mapOptions = {
-		zoom: 8,
-		center: myLatlng,
-		mapTypeControl: false,
-		disableDefaultUI: true,
-		zoomControl: true,
-		scrollwheel: false,
-		styles: styles
-	}
-	
-	var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-	var marker = new google.maps.Marker({
-		position: myLatlng,
-		map: map,
-		title: 'We are here!'
-	});
+function addblur(item){
+    if(item.value ==""){
+        item.classList.remove("focus");
+    }
 }
