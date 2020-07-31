@@ -186,7 +186,7 @@ body,html{
     height: 55%;
     min-height: 300px;
     background-color: #626262;
-    background-image: url("profilepic.jpg");
+    background-image: url("../assets/img/profilepic.jpg");
     z-index: -1;
     background-repeat: no-repeat;
     background-position: top center;
@@ -354,7 +354,7 @@ body,html{
 }
 .blog--image{
     margin:30px;
-    background-image: url("comingsoon.png");
+    background-image: url("../assets/img/comingsoon.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;

@@ -1,0 +1,6 @@
+.works .works--container{
+    padding:30px;
+}
+.works .card--grid{
+    grid-template-rows: 100px;
+}

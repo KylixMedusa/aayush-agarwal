@@ -33,7 +33,7 @@
     margin-top: 10px;
 }
 
-.resume .card--grid::before{
+.card--grid::before{
     height:100%;
     width:2px;
     position: absolute;

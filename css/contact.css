@@ -90,6 +90,9 @@
     padding:30px;
     padding-top: 0;
 }
+.contact form .card--grid::before{
+    display: none;
+}
 
 input,textarea{
     padding:10px 10px;
