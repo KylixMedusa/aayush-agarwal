@@ -4,22 +4,29 @@
         <meta charset="UTF-8">
         <meta name="theme-color" content="#7276d1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel=icon href="favicon.svg">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="contact.css">
         <link rel="stylesheet" href="resume.css">
-        <title>Document</title>
+        <link rel="stylesheet" href="ionicons.css">
+        <link rel="stylesheet" href="progressbar.css">
+        <title>Aayush Agarwal</title>
     </head>
     <body>
+        <div class="loader" id="loader">
+            <div class="circle one"></div>
+            <div class="circle two"></div>
+        </div>
         <div class="main">
             <div class="header">
                 <nav id="menu">
-                    <li class="active"  onclick="cardtoggle(this)"><i class="fa fa-user"></i><p>About</p></li>
-                    <li  onclick="cardtoggle(this)"><i class="fa fa-newspaper-o"></i><p>Resume</p></li>
-                    <li  onclick="cardtoggle(this)"><i class="fa fa-paint-brush"></i><p>Works</p></li>
-                    <li  onclick="cardtoggle(this)"><i class="fa fa-comment"></i><p>Blog</p></li>
-                    <li  onclick="cardtoggle(this)"><i class="fa fa-at"></i><p>Contact</p></li>
+                    <li class="active"  onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-person"></i><p>About</p></li>
+                    <li  onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-android-list"></i><p>Resume</p></li>
+                    <li  onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-paintbrush"></i><p>Works</p></li>
+                    <li  onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-chatbox-working"></i><p>Blog</p></li>
+                    <li  onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-at"></i><p>Contact</p></li>
                 </nav>
             </div>
             <div class="content">
@@ -30,16 +37,16 @@
                             <h2>Aayush Agarwal</h2>
                             <span class="txt-type" data-wait="3000" data-words='["Web Developer","Competitive Coder", "Designer", "Musician", "Painter"]'></span>
                             <div class="socials">
-                                <a href=""><i class="fa fa-facebook"></i></a>
-                                <a href=""><i class="fa fa-instagram"></i></a>
-                                <a href=""><i class="fa fa-twitter"></i></a>
-                                <a href=""><i class="fa fa-github"></i></a>
-                                <a href=""><i class="fa fa-behance"></i></a>
-                                <a href=""><i class="fa fa-linkedin"></i></a>
+                                <a title="Facebook" href="https://www.facebook.com/people/Aayush-Agarwal/100004764855806" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a title="Instagram" href="https://instagram.com/KylixMedusa" target="_blank"><i class="fa fa-instagram"></i></a>
+                                <a title="Twitter" href="https://twitter.com/Aayush967988" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a title="Github" href="https://github.com/KylixMedusa" target="_blank"><i class="fa fa-github"></i></a>
+                                <a title="Behance" href="https://www.behance.net/KylixMedusa" target="_blank"><i class="fa fa-behance"></i></a>
+                                <a title="LinkedIn" href="https://www.linkedin.com/in/aayush-agarwal-214b5a17b/" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="buttons">
-                            <a href="Aayush-Agarwal-Resume.pdf" download="Aayush-Agarwal-Resume.pdf">Download CV &nbsp;<i class="fa fa-download"></i></a>
+                            <a href="Aayush-Agarwal-Resume.pdf" download>Download CV &nbsp;<i style="font-size: 20px;" class="ion ion-archive"></i></a>
                             <a style="cursor:pointer;" onclick="opencontacts()">Contact me &nbsp;<i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -47,7 +54,9 @@
                 <div class="wrapper" id="wrapper">
                     <div class="card fadeIn" id="About">
                         <div>
-                            <div>About</div>
+                            <div>
+                                <div class="card--title"><h2><span>About</span> Me</h2></div>
+                            </div>
                         </div>
                     </div>
                     <div class="card resume" id="Resume">
@@ -55,7 +64,7 @@
                             <div>
                                 <div class="card--title"><h2><span>R</span>esume</h2></div>
                                 <div class="resume--container">
-                                    <h3 style="margin-top: 30px;"><i class="fa fa-suitcase"></i>EXPERIENCE</h3>
+                                    <h3 style="margin-top: 30px;"><i class="ion ion-briefcase"></i>EXPERIENCE</h3>
                                     <div class="card--grid">
                                         <li>
                                             <div class="card-pill pop">2020-Present</div>
@@ -82,7 +91,7 @@
                                             <p>Designing posters and graphics for events and various requirements</p>
                                         </li>
                                     </div>
-                                    <h3><i class="fa fa-graduation-cap"></i>EDUCATION</h3>
+                                    <h3><i class="ion ion-university"></i>EDUCATION</h3>
                                     <div class="card--grid">
                                         <li>
                                             <div class="card-pill pop">2020-Present</div>
@@ -104,18 +113,169 @@
                                         </li>
                                     </div>
                                 </div>
+                                <div class="card--title"><h2><span>My</span> Skills</h2></div>
+                                <div class="resume--container">
+                                    <div class="card--grid">
+                                        <div>
+                                            <li>
+                                                <h3><i class="ion ion-code"></i>Languages</h3>
+                                            </li>
+                                            <li>
+                                                <div class="progress-wrapper">
+                                                    <div>
+                                                        <div class="c100 p80 blue">
+                                                            <span>80%</span>
+                                                            <div class="slice">
+                                                              <div class="bar"></div>
+                                                              <div class="fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <p>C/C++</p>
+                                                    </div>
+                                                    <div>
+                                                        <div class="c100 p50 blue">
+                                                            <span>50%</span>
+                                                            <div class="slice">
+                                                              <div class="bar"></div>
+                                                              <div class="fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <p>Java</p>
+                                                    </div>
+                                                    <div>
+                                                        <div class="c100 p70 blue">
+                                                            <span>70%</span>
+                                                            <div class="slice">
+                                                              <div class="bar"></div>
+                                                              <div class="fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <p>JavaScript</p>
+                                                    </div>
+                                                    <div>
+                                                        <div class="c100 p85 blue">
+                                                            <span>85%</span>
+                                                            <div class="slice">
+                                                              <div class="bar"></div>
+                                                              <div class="fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <p>HTML/CSS</p>
+                                                    </div>
+                                                    
+                                                  </div>
+                                            </li>
+                                        </div>
+                                        <div>
+                                            <li>
+                                                <h3><i class="ion ion-easel"></i>Design</h3>
+                                            </li>
+                                            <li>
+                                                <div class="border-line-h"> 
+                                                    <div class="name">Graphic Design</div>
+                                                    <div class="progress">
+                                                        <div class="percentage" style="width:75%;"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="border-line-h"> 
+                                                    <div class="name">Adobe Photoshop</div>
+                                                    <div class="progress">
+                                                        <div class="percentage" style="width:90%;"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="border-line-h"> 
+                                                    <div class="name">Adobe Illustrator</div>
+                                                    <div class="progress">
+                                                        <div class="percentage" style="width:85%;"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="border-line-h"> 
+                                                    <div class="name">Adobe XD</div>
+                                                    <div class="progress">
+                                                        <div class="percentage" style="width:70%;"></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <div>
+                                            <li><h3><i class="ion ion-flag"></i>Others</h3></li>
+                                            <li>
+                                                <div class="border-line-h">
+                                                    <div class="name">English</div>
+                                                    <div class="spans">
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span></span>
+                                                        <span></span>
+                                                    </div>
+                                                </div>
+                                                <div class="border-line-h">
+                                                    <div class="name">Angular</div>
+                                                    <div class="spans">
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span></span>
+                                                        <span></span>
+                                                        <span></span>
+                                                    </div>
+                                                </div>
+                                                <div class="border-line-h">
+                                                    <div class="name">Machine Learning</div>
+                                                    <div class="spans">
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span class="dot"></span>
+                                                        <span></span>
+                                                        <span></span>
+                                                        <span></span>
+                                                        <span></span>
+                                                        <span></span>
+                                                        <span></span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <div>
+                                            <li><h3><i class="ion ion-android-list"></i>Hobbies</h3></li>
+                                            <li>
+                                                <div style="margin-top: 20px;">
+                                                    <h4>Painting</h4>
+                                                    <p>I love painting and I am a professional Painter and mainly do my works in Oil paint.</p>
+                                                </div>
+                                                <div style="margin-top: 20px;">
+                                                    <h4>Music</h4>
+                                                    <p>I mainly play Hawaiian Guitar but loves to play percussions and write music. I have done a couple of stage performances.</p>
+                                                </div>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="card" id="Works">
                         <div>
-                            <div>Works</div>
+                            <div>
+                                <div class="card--title"><h2><span>Latest</span> Works</h2></div>
+                            </div>
                         </div>
                     </div>
                     <div class="card blog" id="Blog">
                         <div>
                             <div>
-                                <div class="card--title"><h2><span>latest</span> Posts</h2></div>
+                                <div class="card--title"><h2><span>Latest</span> Posts</h2></div>
                                 <div class="blog--image"></div>
                             </div>
                         </div>
@@ -126,6 +286,7 @@
                                 <div class="card--title"><h2><span>Get</span> in Touch</h2></div>
                                 <div class="map--container">
                                     <div id="map"></div>
+                                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4130.883714505203!2d88.82473814579852!3d26.57764470128218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e387b49655a5f5%3A0x10b84931dc376124!2zMjbCsDM0JzI5LjMiTiA4OMKwNDknMjkuOSJF!5e0!3m2!1sen!2sin!4v1596124387479!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 26.575724, 88.825255 -->
                                     <div class="card--grid">
                                         <li><p class="highlight">Address.....</p>West Bengal, India</li>
                                         <li><p class="highlight">Phone.....</p>+91 9679883985</li>
@@ -165,5 +326,6 @@
         <script src="typewriter.js"></script>
         <script src="map.js"></script>
         <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAja8NsoCX_c5CL7eBi_f_dpH1xyGAggFI&callback=initMap"></script>
+
     </body>
 </html>

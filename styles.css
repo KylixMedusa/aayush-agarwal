@@ -9,6 +9,10 @@ body,html{
     /* background-image: repeating-linear-gradient(90deg, rgba(127, 91, 213,0.5) 0px, rgba(127, 91, 213,0.5) 40px,transparent 40px, transparent 80px),repeating-linear-gradient(0deg, rgba(127, 91, 213,0.5) 0px, rgba(127, 91, 213,0.5) 40px,transparent 40px, transparent 80px),linear-gradient(90deg, hsl(289,93%,77%),hsl(289,93%,77%)); */
     background-position: center center;
 }
+.ion{
+    vertical-align: middle;
+    font-size: xx-large;
+}
 *{
     margin: 0;
     padding: 0;
@@ -38,7 +42,52 @@ body,html{
     background-color: blueviolet;
     border-radius: 10px;
   }
-  
+  .loader{
+      position: fixed;
+      height:100vh;
+      width:100vw;
+      z-index: 10;
+      background-color: white;
+  }
+  .loader.fadeOut{
+      animation:fadeloader  0.3s linear forwards; 
+  }
+  @keyframes fadeloader{
+      from{
+          opacity: 1;
+      }
+      to{
+          opacity: 0;
+      }
+  }
+  .loader .circle{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      z-index: 11;
+      height:100px;
+      width:100px;
+      border-radius: 50%;
+      background-color: blueviolet;
+      animation: bounce 0.6s linear alternate infinite;
+  }
+  .loader .circle.two{
+      background-color: rgba(137, 43, 226, 0.3);
+      animation-delay:0.6s ;
+  }
+  @keyframes bounce{
+      from{
+          width:0px;
+          height:0px;
+          opacity: 0;
+      }
+      to{
+          width:100px;
+          height:100px;
+          opacity: 1;
+      }
+  }
 .main{
     width:100%;
     height:95vh;
@@ -285,6 +334,21 @@ body,html{
     width:100%;
     background-color: white;
 }
+.wrapper .card::before,.wrapper .card::after{
+    content:'';
+    position: absolute;
+    left:0;
+    width:calc(100% - 20px);
+    height:20px;
+    background-color: white;
+    z-index: 1;
+}
+.wrapper .card::before{
+    top:0;
+}
+.wrapper .card::after{
+    bottom:0;
+}
 .card.fadeIn{
     animation: fadein 0.5s linear forwards;
 }
@@ -327,6 +391,38 @@ body,html{
         transform: translateX(-70%);
     }
   }
+
+.border-line-h{
+    position: relative;
+    padding:20px;
+}
+.border-line-h .progress{
+    margin-top: 12px;
+    height:5px;
+    background-color: #dddddd;
+    width:100%;
+}
+.border-line-h .progress .percentage{
+    position: relative;
+    top:0;
+    height: 100%;
+    background-color: blueviolet;
+}
+.border-line-h .spans{
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.border-line-h .spans span{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background-color: #dddddd;
+}
+.border-line-h .spans span.dot{
+    background-color: blueviolet;
+}
 @media screen and (max-width: 1100px) {
     .main{
         grid-template-columns: 10vw 78px 1fr 10vw;

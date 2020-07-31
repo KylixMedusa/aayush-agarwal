@@ -32,3 +32,20 @@
     font-size: 0.9rem;
     margin-top: 10px;
 }
+
+.resume .card--grid::before{
+    height:100%;
+    width:2px;
+    position: absolute;
+    top:2px;
+    left:calc(50% - 1px);
+    content: '';
+    display: block;
+    background: radial-gradient(ellipse at center, #dddddd 0%, rgba(255, 255, 255, 0) 70%);;
+}
+
+@media screen and (max-width:600px){
+    .resume .card--grid::before{
+        display: none;
+    }
+}

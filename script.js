@@ -63,7 +63,6 @@ window.addEventListener('resize',e=>{
                 break;
             }
         }
-        console.log(curr);
         if(curr)
             cardtoggle(curr);
         else
@@ -112,3 +111,11 @@ function addblur(item){
         item.classList.remove("focus");
     }
 }
+
+window.addEventListener('load',async e=>{
+    var node  = document.getElementById("loader")
+    node.classList.add('fadeOut'),300;
+    var promise = await new Promise(r => setTimeout(r, 300));
+    node.style.display="none";
+
+})

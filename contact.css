@@ -46,6 +46,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows:1fr ;
     grid-gap: 20px;
+    position: relative;
 }
 .card--grid li{
     list-style: none;
