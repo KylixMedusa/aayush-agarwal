@@ -45,7 +45,7 @@
 }
 
 @media screen and (max-width:600px){
-    .resume .card--grid::before{
+    .card--grid::before{
         display: none;
     }
 }
