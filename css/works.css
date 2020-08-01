@@ -57,7 +57,11 @@
     grid-gap: 10px;
     padding:10px;
     background-color: #eeeeee65;
+    transition: all 0.3s ease-in-out;
 
+}
+.works .image--grid li:hover, .works .paintings--grid .item:hover{
+    transform: scale(1.03);
 }
 .works .image--grid li.large{
     grid-row: span 2;
@@ -88,6 +92,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     counter-increment: item-counter;
+    transition: all 0.3s ease-in-out;
 }
 .paintings--grid .item.long{
     grid-row: span 2;
