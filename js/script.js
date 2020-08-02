@@ -139,4 +139,5 @@ if(userPrefersDark)
 {
     var root = document.getElementsByTagName('html')[0];
     root.classList.add('dark');
+    document.querySelector("meta[name='theme-color']").setAttribute("content","#31313a");
 }
