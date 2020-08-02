@@ -415,7 +415,7 @@
                                     </div>
                                 </div>
                                 <div class="card--title"><h2><span>Contact</span> Form</h2></div>
-                                <form>
+                                <form action="send_message.php" method="post">
                                     <div class="card--grid">
                                         <div class="input--div">
                                             <input onfocus="addfocus(this)" onblur="addblur(this)" type="text" name="name" id="name" required>
@@ -435,7 +435,7 @@
                                         <label for="Your Message">Your Message</label>
                                     </div>
                                     <div style="text-align:center;"id="ajaxDiv"></div>
-                                    <input type="button" value="Send Message" onclick="ajaxFunction()" id="submit">
+                                    <input type="submit" value="Send Message" id="submit">
                                 </form>
                             </div>
                         </div>
@@ -446,7 +446,6 @@
         <script src="./js/script.js"></script>
         <script src="./js/typewriter.js"></script>
         <script src="./js/map.js"></script>
-        <script src="./js/ajax.js"></script>
         <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAja8NsoCX_c5CL7eBi_f_dpH1xyGAggFI&callback=initMap"></script>
 
     </body>

@@ -1,4 +1,5 @@
 function ajaxFunction(){
+   console.log("working");
     var ajaxRequest;  // The variable that makes Ajax possible!
     
     try {
@@ -33,13 +34,18 @@ function ajaxFunction(){
     // Now get the value from user and pass it to
     // server script.
          
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var subject = document.getElementById('subject').value;
-    var message = document.getElementById('message').value;
-    var queryString = "name=" + name ;
+    var name = document.getElementById('name');
+    var email = document.getElementById('email');
+    var subject = document.getElementById('subject');
+    var message = document.getElementById('message');
+    
+    var queryString = "name=" + name.value ;
  
-    queryString +=  "&email=" + email + "&subject=" + subject + "&message=" + message;
+    queryString +=  "&email=" + email.value + "&subject=" + subject.value + "&message=" + message.value;
+    name.value=null;
+    email.value=null;
+    subject.value=null;
+    message.value=null;
     ajaxRequest.open("POST", "send_message.php", true);
     ajaxRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     console.log(queryString);
