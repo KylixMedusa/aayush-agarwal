@@ -9,6 +9,9 @@
 .works .works--container h3{
     margin: 20px 0;
 }
+.dark .works .works--container h3{
+    color:white;
+}
 
 
 .works .image--grid{
@@ -60,6 +63,9 @@
     transition: all 0.3s ease-in-out;
 
 }
+.dark .works .image--grid li{
+    background-color: #4e4e57a6;
+}
 .works .image--grid li:hover, .works .paintings--grid .item:hover{
     transform: scale(1.03);
 }
@@ -71,6 +77,9 @@
 }
 .works .image--grid a{
     color:black;
+}
+.dark .works .image--grid a{
+    color:white;
 }
 .paintings--grid{
     display: grid;

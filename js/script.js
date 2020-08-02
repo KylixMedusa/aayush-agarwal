@@ -119,3 +119,24 @@ window.addEventListener('load',async e=>{
     node.style.display="none";
 
 })
+
+function darktoggle(){
+    var root = document.getElementsByTagName('html')[0];
+    root.classList.toggle('dark');
+    if(root.classList.value[0] === 'dark'){
+        document.querySelector("meta[name='theme-color']").setAttribute('content','#31313a');
+    }
+    else{
+        document.querySelector("meta[name='theme-color']").setAttribute('content','#7276d1');
+    }
+}
+
+const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+
+if(userPrefersDark)
+{
+    var root = document.getElementsByTagName('html')[0];
+    root.classList.add('dark');
+}

@@ -28,6 +28,9 @@
     margin-top:20px;
     text-align: center;
   }
+  .dark .progress-wrapper p{
+    color:white;
+  }
   .progress-wrapper > div{
     display: inline-block;
     text-align: center;
@@ -42,6 +45,9 @@
     border-radius: 50%;
     margin-bottom: 0;
     background-color: #dfe8ed;
+  }
+  .dark  .c100{
+    background-color: #3e4148;
   }
   .c100 *, .c100 *:before, .c100 *:after {
     -moz-box-sizing: content-box;
@@ -96,6 +102,12 @@
     -o-transition-timing-function: ease-in;
     -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
+  }
+  .dark .c100:after{
+    background-color: #31313a;
+  }
+  .dark .c100 >span{
+    color:rgba(255, 255, 255, 0.6);
   }
   .c100 .slice {
     position: absolute;
@@ -721,4 +733,7 @@
   }
   .c100.blue:hover > span {
     color: black;
+  }
+  .dark   .c100.blue:hover > span{
+    color:rgba(255, 255, 255, 1);
   }

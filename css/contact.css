@@ -18,6 +18,12 @@
     bottom:0;
     left:0;
 }
+.dark .card--title h2{
+    color:white;
+}
+.dark .card--title::after{
+    background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
 .card h2 span{
     color:blueviolet
 }
@@ -85,6 +91,9 @@
     display: block;
     background: radial-gradient(ellipse at center, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
 }
+.dark .card--grid li::after{
+    background: radial-gradient(ellipse at center, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
 
 .contact form{
     padding:30px;
@@ -100,6 +109,11 @@ input,textarea{
     border: 2px solid #dddddd;
     outline: 0;
     font-size: 1.1rem;
+}
+.dark input,.dark textarea{
+    background-color: transparent;
+    border-color: #707070;
+    color:white;
 }
 input.focus,textarea.focus{
     border-color: blueviolet;
@@ -134,12 +148,18 @@ input.focus ~ label, textarea.focus ~ label{
     padding:0 2px;
     z-index: 0;
 }
+.dark input.focus ~ label,.dark textarea.focus ~ label{
+    background-color: #31313a;
+}
 input#submit{
     max-width: 200px;
     border: none;
     margin-top: 10px;
     border-radius: 5px;
     cursor: pointer;
+}
+.dark input#submit{
+    background-color: #707070;
 }
 @media screen and (max-width:600px){
     .card--grid{

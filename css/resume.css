@@ -5,6 +5,9 @@
     color:blueviolet;
     margin-right:10px ;
 }
+.dark .resume .resume--container h3{
+    color:white;
+}
 .resume .card--grid li{
     word-break: normal;
 }
@@ -24,6 +27,9 @@
 .resume .card--grid h4{
     margin-top: 10px;
 }
+.dark .resume .card--grid h4{
+    color:white;
+}
 .resume .card--grid small{
     color:gray;
     margin: 20px 0;
@@ -42,6 +48,9 @@
     content: '';
     display: block;
     background: radial-gradient(ellipse at center, #dddddd 0%, rgba(255, 255, 255, 0) 70%);;
+}
+.dark .card--grid::before{
+    background: radial-gradient(ellipse at center, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 @media screen and (max-width:600px){
