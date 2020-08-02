@@ -415,14 +415,14 @@
                                     </div>
                                 </div>
                                 <div class="card--title"><h2><span>Contact</span> Form</h2></div>
-                                <form action="send_message.php" method="post">
+                                <form>
                                     <div class="card--grid">
                                         <div class="input--div">
-                                            <input onfocus="addfocus(this)" onblur="addblur(this)" type="text" name="name" required>
+                                            <input onfocus="addfocus(this)" onblur="addblur(this)" type="text" name="name" id="name" required>
                                             <label for="name">Name</label>
                                         </div>
                                         <div class="input--div">
-                                            <input onfocus="addfocus(this)" onblur="addblur(this)" type="email" name="email" required>
+                                            <input onfocus="addfocus(this)" onblur="addblur(this)" type="email" name="email" id="email" required>
                                             <label for="email">Email</label>
                                         </div>
                                     </div>
@@ -434,7 +434,8 @@
                                         <textarea onfocus="addfocus(this)" onblur="addblur(this)" name="message" id="message"></textarea>
                                         <label for="Your Message">Your Message</label>
                                     </div>
-                                    <input type="submit" value="Send Message" id="submit">
+                                    <div style="text-align:center;"id="ajaxDiv"></div>
+                                    <input type="button" value="Send Message" onclick="ajaxFunction()" id="submit">
                                 </form>
                             </div>
                         </div>
@@ -445,6 +446,7 @@
         <script src="./js/script.js"></script>
         <script src="./js/typewriter.js"></script>
         <script src="./js/map.js"></script>
+        <script src="./js/ajax.js"></script>
         <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAja8NsoCX_c5CL7eBi_f_dpH1xyGAggFI&callback=initMap"></script>
 
     </body>
