@@ -78,7 +78,7 @@
 .works .image--grid a{
     color:black;
 }
-.dark .works .image--grid a{
+.dark .works .image--grid a, .dark .works .image--grid h4{
     color:white;
 }
 .paintings--grid{

@@ -39,6 +39,7 @@
   
   .c100 {
     position: relative;
+    z-index: 0;
     font-size: 72px;
     width: 100px;
     height: 100px;
