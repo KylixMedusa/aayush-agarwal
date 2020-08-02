@@ -1,0 +1,525 @@
+# Webalizer V2.23-08 Incremental Data - 08/02/2020 01:24:06
+2020 8 2 1 24 6
+435 209 73 40 9 32 20137839 228 78 0 0 0
+10 7 247 1 2
+420 201 19982242 66 214 68 0 0
+15 8 155597 10 14 10 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+18 5 29320 14 0 0
+8 6 150868 8 0 0
+1 0 0 1 0 0
+5 1 5472 4 0 0
+2 1 5820 2 0 0
+7 4 29375 5 0 0
+4 2 19517 3 0 0
+6 2 17710 6 0 0
+2 0 0 1 0 0
+11 2 36039 8 0 0
+1 1 10716 1 0 0
+6 2 24587 5 0 0
+2 1 10716 2 0 0
+11 3 16271 11 0 0
+6 1 5876 4 0 0
+3 2 21836 2 0 0
+3 1 5472 2 0 0
+2 0 752 1 0 0
+1 1 10716 1 0 0
+1 1 5472 1 0 0
+2 1 5876 2 0 0
+247 118 14754217 131 0 0
+4 3 41565 2 0 0
+82 51 4929646 11 0 0
+0
+0
+0
+209
+0
+0
+0
+0
+0
+0
+0
+0
+4
+0
+26
+0
+0
+22
+0
+0
+0
+164
+0
+0
+0
+10
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/css/works.css
+0 6 0 29028 0 0 0 0
+/assets/img/Works/front (2).png
+1 5 0 1529546 0 0 0 0
+/css/ionicons.css
+0 6 0 64158 0 0 0 0
+/js/map.js
+0 5 0 7560 0 0 0 0
+/assets/img/profilepic.jpg
+1 5 0 418710 0 0 0 0
+/assets/img/design1.jpg
+1 5 0 747942 0 0 0 0
+/assets/img/Works/Starfield.png
+1 5 0 205721 0 0 0 0
+/assets/img/Works/2D Ray Casting.png
+1 5 0 211385 0 0 0 0
+/assets/img/design2.jpg
+1 5 0 776662 0 0 0 0
+/assets/Aayush-Agarwal-Resume.pdf
+0 2 0 68090 0 0 0 0
+/assets/img/Works/fractaltree.png
+1 5 0 226933 0 0 0 0
+/assets/img/Works/SortingVisualizerApp1.png
+1 5 0 139460 0 0 0 0
+/.git/config
+0 1 0 525 0 0 0 0
+/js/script.js
+0 5 0 21395 0 0 0 0
+/assets/img/Works/Tictactoe.png
+1 5 0 118629 0 0 0 0
+/fonts/ionicons.ttf
+0 5 0 760194 0 0 0 0
+/assets/img/Works/TapTimer2.png
+1 5 0 974078 0 0 0 0
+/assets/img/painting1.jpg
+1 5 0 610590 0 0 0 0
+/assets/img/comingsoon.png
+1 5 0 468554 0 0 0 0
+/assets/img/Works/front (3).png
+1 5 0 773782 0 0 0 0
+/assets/img/Works/SortingVisualizerApp2.png
+1 5 0 105160 0 0 0 0
+/assets/img/favicon.svg
+0 5 0 4640 0 0 0 0
+/assets/img/Works/News App.png
+1 5 0 2583689 0 0 0 0
+/css/resume.css
+0 6 0 13164 0 0 0 0
+/assets/img/painting3.jpg
+1 5 0 1872994 0 0 0 0
+/assets/img/Works/front (4).png
+1 5 0 1046906 0 0 0 0
+/.git/index
+0 1 0 3871 0 0 0 0
+/css/progressbar.css
+0 6 0 35384 0 0 0 0
+/assets/img/Works/Terrain_with_Perlin_Noise.png
+1 5 0 217873 0 0 0 0
+/assets/img/painting 2.jpg
+1 5 0 1443386 0 0 0 0
+/assets/img/Works/WhatsappWeb.png
+1 5 0 1010877 0 0 0 0
+/assets/img/Works/Snow Fall.png
+1 5 0 411262 0 0 0 0
+/comingsoon.png
+1 1 0 195 0 0 0 0
+/
+0 49 0 552214 60 10 0 0
+/assets/img/Works/front (1).png
+1 5 0 1136594 0 0 0 0
+/css/styles.css
+0 6 0 26313 0 0 0 0
+/assets/img/Works/TapTimer1.png
+1 5 0 952225 0 0 0 0
+/js/typewriter.js
+0 5 0 13167 0 0 0 0
+/css/contact.css
+0 6 0 19607 0 0 0 0
+/assets/img/Works/drawingboard.png
+1 5 0 439954 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+168.228.6.22
+0 1 1 33714 1 1596330995 0 0
+/
+130.162.69.143
+0 1 1 5472 1 1596298373 0 0
+/
+151.33.71.123
+0 1 0 0 1 1596249969 0 0
+/
+94.179.30.60
+0 1 1 10716 1 1596294157 0 0
+/
+203.189.141.63
+0 1 1 10716 1 1596267271 0 0
+/
+185.202.2.147
+0 1 0 0 1 1596251764 0 0
+/
+79.126.254.233
+0 1 1 10716 1 1596279076 0 0
+/
+93.174.93.139
+0 1 0 404 1 1596314896 0 0
+-
+195.54.160.67
+0 1 0 404 1 1596287664 0 0
+-
+84.31.42.152
+0 1 1 10716 1 1596306912 0 0
+/
+192.168.0.108
+0 1 1 8751 1 1596316601 0 0
+/
+59.126.204.225
+0 1 0 0 1 1596252312 0 0
+/
+220.133.47.155
+0 1 0 0 1 1596331446 0 0
+/
+104.244.78.107
+0 2 2 7250 2 1596327303 0 0
+/
+181.143.101.194
+0 2 0 808 0 0 0 0
+-
+195.54.160.66
+0 1 0 404 1 1596291415 0 0
+-
+195.54.160.65
+0 1 0 404 1 1596265992 0 0
+-
+46.165.230.5
+0 1 0 3880 1 1596287957 0 0
+-
+13.58.141.241
+0 2 1 9098 1 1596318890 0 0
+/
+115.187.33.173
+0 1 0 0 1 1596325936 0 0
+-
+139.162.145.250
+0 1 0 3455 1 1596320793 0 0
+-
+186.192.145.4
+0 35 35 4921453 1 1596317078 0 0
+/
+195.54.160.21
+0 17 5 39513 3 1596330498 0 0
+-
+129.213.80.126
+0 1 1 5472 1 1596292403 0 0
+/
+129.144.8.28
+0 1 1 5472 1 1596289542 0 0
+/
+182.18.165.73
+0 1 1 5472 1 1596256888 0 0
+/
+142.11.213.165
+0 3 0 11274 0 0 0 0
+-
+223.239.50.110
+0 4 2 13104 1 1596240973 0 0
+-
+195.54.160.68
+0 1 0 404 1 1596267776 0 0
+-
+36.227.153.60
+0 1 0 0 1 1596288978 0 0
+/
+186.116.181.6
+0 1 0 404 0 0 0 0
+-
+139.162.119.197
+0 1 1 10735 1 1596282421 0 0
+/
+49.87.197.23
+0 1 0 404 1 1596241195 0 0
+-
+192.241.235.72
+0 1 0 348 1 1596242134 0 0
+-
+129.191.26.32
+0 1 1 5472 1 1596253814 0 0
+/
+143.255.198.242
+0 1 0 348 1 1596272639 0 0
+-
+185.221.134.234
+0 1 0 150 0 0 0 0
+-
+39.96.56.36
+0 1 1 5472 1 1596313896 0 0
+/
+192.168.0.116
+0 50 44 4916890 1 1596316384 0 0
+-
+144.48.226.253
+0 1 1 10716 1 1596285248 0 0
+/
+200.46.45.114
+0 1 0 348 1 1596301389 0 0
+-
+61.219.11.153
+0 1 0 0 1 1596280194 0 0
+-
+196.52.43.99
+0 1 1 10735 1 1596245160 0 0
+/
+192.35.168.204
+0 2 2 13037 1 1596261175 0 0
+/
+41.213.138.16
+0 2 0 0 1 1596293132 0 0
+/
+201.187.99.212
+0 16 0 0 7 1596326468 0 0
+/
+223.239.50.89
+0 79 49 4883893 1 1596324090 0 0
+/
+182.66.33.222
+0 36 36 4820178 1 1596317074 0 0
+/
+190.144.6.89
+0 1 1 10716 1 1596259150 0 0
+/
+62.195.148.148
+0 120 0 43673 1 1596317602 0 0
+/
+218.161.40.64
+0 1 0 0 1 1596275046 0 0
+/
+74.82.47.5
+0 1 1 13852 1 1596280144 0 0
+/
+218.13.22.44
+0 2 0 0 1 1596298457 0 0
+/
+114.32.2.209
+0 1 0 0 1 1596265612 0 0
+/
+120.52.15.22
+0 1 0 0 1 1596317018 0 0
+/
+186.96.195.243
+0 1 1 5472 1 1596311431 0 0
+/
+220.133.214.217
+0 1 0 0 1 1596286094 0 0
+/
+173.212.247.35
+0 1 1 5472 1 1596260200 0 0
+/
+176.126.175.10
+0 1 1 4891 1 1596330079 0 0
+/
+187.26.220.143
+0 1 1 10716 1 1596295933 0 0
+/
+218.253.242.224
+0 2 0 0 1 1596272217 0 0
+/
+160.34.9.48
+0 1 1 8042 1 1596323055 0 0
+/
+45.7.118.50
+0 1 1 33714 1 1596331094 0 0
+/
+192.35.168.251
+0 2 2 19517 1 1596263326 0 0
+/
+3.101.24.58
+0 2 1 6186 1 1596266325 0 0
+/
+122.116.51.129
+0 1 0 0 1 1596329808 0 0
+/
+183.136.225.56
+0 2 2 71481 2 1596325167 0 0
+/
+190.123.91.159
+0 1 1 33714 1 1596321315 0 0
+/
+92.38.46.205
+0 1 1 33714 1 1596330951 0 0
+/
+80.82.70.118
+0 1 1 33733 1 1596330975 0 0
+/
+37.49.230.56
+0 1 0 348 1 1596256856 0 0
+-
+185.153.196.226
+0 2 2 4396 0 0 0 0
+-
+60.165.130.204
+0 1 0 0 1 1596283100 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+168.228.6.22
+0 1 1 33714 1 1596330995 0 0
+/
+220.133.47.155
+0 1 0 0 1 1596331446 0 0
+/
+104.244.78.107
+0 1 1 4910 1 1596327303 0 0
+/
+195.54.160.21
+0 5 2 10921 1 1596330498 0 0
+-
+201.187.99.212
+0 2 0 0 1 1596326468 0 0
+/
+176.126.175.10
+0 1 1 4891 1 1596330079 0 0
+/
+45.7.118.50
+0 1 1 33714 1 1596331094 0 0
+/
+122.116.51.129
+0 1 0 0 1 1596329808 0 0
+/
+92.38.46.205
+0 1 1 33714 1 1596330951 0 0
+/
+80.82.70.118
+0 1 1 33733 1 1596330975 0 0
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://206.83.40.131:80/left.html
+0 2
+https://www.aayushagarwal.me/
+0 166
+https://www.google.com/
+0 1
+- (Direct Request)
+0 248
+https://www.aayushagarwal.me/styles.css
+0 1
+https://www.aayushagarwal.me/css/ionicons.css
+0 5
+http://206.83.40.131:80/admin/login.asp
+0 1
+https://www.aayushagarwal.me/Aayush-Agarwal-Resume.pdf
+0 1
+https://www.aayushagarwal.me/css/styles.css
+0 10
+# End Of Table - referrers
+# -agents- 
+HTTP Banner Detection (https://security.ipip.net)
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+0 35
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+0 2
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3602.2 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+0 6
+Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20100101 Firefox/19.0
+0 1
+python-requests/2.24.0
+0 2
+HaxerMen
+0 3
+WhatsApp/2.20.195.17 A
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)
+0 1
+Go-http-client/1.1
+0 9
+XTC
+0 2
+Hello, World
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+0 2
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+0 119
+Mozilla/5.0 zgrab/0.x
+0 4
+Ankit
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+0 17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36/8mqDoRuL-
+0 9
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 10; RMX1851) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Mobile Safari/537.36
+0 36
+B4ckdoor-owned-you
+0 10
+Mozilla/5.0 (Linux; Android 9; vivo 1806) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 78
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0
+0 2
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+0 1
+curl/7.29.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36/8mqLkJuL-
+0 37
+Mozilla/5.0 (compatible; Konqueror/4.4; Linux 2.6.32-22-generic; X11; en_US) KHTML/4.4.3 (like Gecko) Kubuntu
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

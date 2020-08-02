@@ -51,7 +51,7 @@ function sendMail($email, $subject, $body, $reply_to = null)
 				</head>';
     $email_body .= '<body>';
     
-    $email_body .= '<center><img src="http://mwv.net.in/img/logo.png" width="50%" alt="MinD Webs Ventures"></center>';
+    // $email_body .= '<center><img src="http://mwv.net.in/img/logo.png" width="50%" alt="MinD Webs Ventures"></center>';
     $email_body .= $body;
     $email_body .= '<p>Best, <br /> Team <strong>MWV</strong>.</p>';
     $email_body .= '<hr><p style="font-size:11px;">This mail was sent to you by <a href="https://mindwebs.org">MinD Webs Systems</a> | ' . date("jS \of F Y h:i:s A") . '</p>
