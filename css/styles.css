@@ -544,7 +544,10 @@ body{
     .header nav li:hover{
         background-color: transparent;
         /* color:rgba(2,95,190,1); */
-        color: rgba(255, 255, 255, 0.85);;
+        color:black;
+    }
+    .dark .header nav li:hover{
+        color: rgba(255, 255, 255, 0.85);
     }
     .header nav li.active{
         background-color: rgba(139, 139, 139, 0.05);
@@ -583,9 +586,6 @@ body{
     }
     .card.fadeOut{
         animation: none;
-    }
-    .wrapper .card > div{
-        /* padding: 20px; */
     }
     .blog--image{
         margin-top: 0;
