@@ -57,10 +57,10 @@ if(isset($_POST['email'])){
     ?>
     <script>
         alert("Your message was successfully sent.");
-        window.history.go(-1);
+        // window.history.go(-1);
     </script>
     <?php
-    
+    header("location: index");
 } else {
     echo "GET / METHOD NOT PERMITTED";
 }
