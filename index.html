@@ -1,580 +1,722 @@
 <!DOCTYPE html>
-<html lang="en" >
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="KylixMedusa (Aayush Agarwal) Portfolio Website">
-        <meta name="theme-color" content="#7276d1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="google-site-verification" content="xo-8s4sXe9B_mu2XfUGMdtAbfdb-RyOqeTbCebnV3MQ" />
-        <link rel=icon href="./assets/img/favicon.svg">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-        <link rel="stylesheet" href="./css/styles.css">
-        <link rel="stylesheet" href="./css/contact.css">
-        <link rel="stylesheet" href="./css/resume.css">
-        <link rel="stylesheet" href="./css/ionicons.css">
-        <link rel="stylesheet" href="./css/progressbar.css">
-        <link rel="stylesheet" href="./css/works.css">
-        <link rel="stylesheet" href="./css/about.css">
-        <title>KylixMedusa (Aayush Agarwal)</title>
-    </head>
-    <body>
-        <div class="loader" id="loader">
-            <div class="circle one"></div>
-            <div class="circle two"></div>
-        </div>
-        <div class="main">
-            <div class="dark--toggle" onclick="darktoggle()">
-                <img src="./assets/img/sun.png" alt="🟡">
-            </div>
-            <div class="header">
-                <nav id="menu">
-                    <li class="active"  onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-person"></i><p>About</p></li>
-                    <li  onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-android-list"></i><p>Resume</p></li>
-                    <li  onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-paintbrush"></i><p>Works</p></li>
-                    <li  onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-chatbox-working"></i><p>Blog</p></li>
-                    <li  onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-at"></i><p>Contact</p></li>
-                </nav>
-            </div>
-            <div class="content">
-                <div class="container">
-                    <div class="image"></div>
-                    <div class="container--div">
-                        <div class="conatiner--contents">
-                            <h2>Aayush Agarwal</h2>
-                            <span class="txt-type" data-wait="3000" data-words='["Web Developer","Competitive Coder", "Designer", "Musician", "Painter"]'></span>
-                            <div class="socials">
-                                <a title="Facebook" href="https://www.facebook.com/people/Aayush-Agarwal/100004764855806" target="_blank"><i class="fa fa-facebook"></i></a>
-                                <a title="Instagram" href="https://instagram.com/KylixMedusa" target="_blank"><i class="fa fa-instagram"></i></a>
-                                <a title="Twitter" href="https://twitter.com/Aayush967988" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a title="Github" href="https://github.com/KylixMedusa" target="_blank"><i class="fa fa-github"></i></a>
-                                <a title="Behance" href="https://www.behance.net/KylixMedusa" target="_blank"><i class="fa fa-behance"></i></a>
-                                <a title="LinkedIn" href="https://www.linkedin.com/in/aayush-agarwal-214b5a17b/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="buttons">
-                            <a href="./assets/Aayush-Agarwal-Resume.pdf" download>Download CV &nbsp;<i style="font-size: 20px;" class="ion ion-archive"></i></a>
-                            <a style="cursor:pointer;" onclick="opencontacts()">Contact me &nbsp;<i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="wrapper" id="wrapper">
-                    <div class="card about fadeIn" id="About">
-                        <div>
-                            <div>
-                                <div class="card--title"><h2><span>A</span>bout Me</h2></div>
-                                <div class="card--grid head">
-                                    <div>Hello, I am Aayush Agarwal. I have rich interest in Web Development, Designing, Machine Learning. I am a professional painter and a musician. Born in Siliguri, West Bengal; It has been a long journey till here. I hope this website will interest you in my life.</div>
-                                    <div>
-                                        <li><p class="highlight">Age.....</p><p>19</p></li>
-                                        <li><p class="highlight">Status.....</p><p>Student</p></li>
-                                        <li><p class="highlight">Freelancer.....</p><p>Available</p></li>
-                                        <li><p class="highlight">Residence.....</p><p>India</p></li>
-                                    </div>
-                                </div>
-                                <div class="card--title"><h2><span>M</span>y Fields</h2></div>
-                                <div class="card--grid fields">
-                                    <li>
-                                        <div class="circle"><i class="ion ion-code"></i></div>
-                                        <h3>Web Development</h3>
-                                        <p>I love working on Web Technologies specially on the front end. I am currently exploring this field hugely.</p>
-                                    </li>
-                                    <li>
-                                        <div class="circle"><i class="ion ion-easel"></i></div>
-                                        <h3>Graphic Design</h3>
-                                        <p>I have good interest in graphic design. Commonly I use Illustrator And Photoshop for the purpose. UI/UX design is also one of my interests.</p>
-                                    </li>
-                                    <li>
-                                        <div class="circle"><i class="ion ion-paintbrush"></i></div>
-                                        <h3>Painting</h3>
-                                        <p>I love painting since chilidhood. I am a professional painter and mostly do portraits with Oil paints.</p>
-                                    </li>
-                                    <li>
-                                        <div class="circle"><i style="font-size: xx-large;" class="fa fa-microphone"></i></div>
-                                        <h3>Music</h3>
-                                        <p>I play Hawaiian Guitar and some Indian percussions. I love to write and sing songs in my leisure hours.</p>
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card resume" id="Resume">
-                        <div>
-                            <div>
-                                <div class="card--title"><h2><span>R</span>esume</h2></div>
-                                <div class="resume--container">
-                                    <h3 style="margin-top: 30px;"><i class="ion ion-briefcase"></i>EXPERIENCE</h3>
-                                    <div class="card--grid">
-                                        <li>
-                                            <div class="card-pill pop">December(2020)-Present</div>
-                                            <h4>Front End Developer</h4>
-                                            <small>Key2IQ</small>
-                                            <p>Working on their products like resume builder and other stuff</p>
-                                        </li>
-                                        
-                                        <li>
-                                            <div class="card-pill">August-November(2020)</div>
-                                            <h4>Software Developer</h4>
-                                            <small>Triveous Private Ltd.</small>
-                                            <p>Working on their products on React, Firebase etc. for web extension and web app. Learning new technologies and hence implementing in their product.</p>
-                                        </li>
-                                        <li>
-                                            <div class="card-pill pop">May(2020)-Present</div>
-                                            <h4>Full Stack Developer</h4>
-                                            <small>Mind Webs</small>
-                                            <p>Working on various new products like url shortener, event management app, client projects etc. Learning new technologies for new requirements.</p>
-                                        </li>
-                                        <li>
-                                            <div class="card-pill pop">January(2020)-Present</div>
-                                            <h4>Web Development TA</h4>
-                                            <small>Developers Students' Club KGEC (DSC)</small>
-                                            <p>Work on various activities of Web Development and involve in development community and lead team for varoous projects</p>
-                                        </li>
-                                        <li>
-                                            <div class="card-pill">July - August (2020)</div>
-                                            <h4>CSS Developer</h4>
-                                            <small>Codeacious Technologies</small>
-                                            <p>Converting designs into HTML and CSS code for various projects</p>
-                                        </li>
-                                        <li>
-                                            <div class="card-pill pop">November(2019)-Present</div>
-                                            <h4>Graphic Designer</h4>
-                                            <small>ShutterBug KGEC</small>
-                                            <p>Designing posters and graphics for events and various requirements</p>
-                                        </li>
-                                    </div>
-                                    <h3><i class="ion ion-university"></i>EDUCATION</h3>
-                                    <div class="card--grid">
-                                        <li>
-                                            <div class="card-pill pop">2019-Present</div>
-                                            <h4>B.Tech in IT</h4>
-                                            <small>Kalyani Government Engineering College</small>
-                                            <p>Pursuing graduation and expected to complete in 2023</p>
-                                        </li>
-                                        <li>
-                                            <div class="card-pill">2019</div>
-                                            <h4>12th</h4>
-                                            <small>DAV School, Siliguri(AISSCE)</small>
-                                            <p>Completed my 12th with Physics, Chemistry, Mathematics and Computer Science with 94.7%</p>
-                                        </li>
-                                        <li>
-                                            <div class="card-pill">2017</div>
-                                            <h4>10th</h4>
-                                            <small>Saint Paul's School(CICSE)</small>
-                                            <p>Completed my 10th with Computer Science as external subject with 93.40%</p>
-                                        </li>
-                                    </div>
-                                </div>
-                                <div class="card--title"><h2><span>M</span>y Skills</h2></div>
-                                <div class="resume--container">
-                                    <div class="card--grid">
-                                        <div>
-                                            <li>
-                                                <h3><i class="ion ion-code"></i>Languages</h3>
-                                            </li>
-                                            <li>
-                                                <div class="progress-wrapper">
-                                                    <div>
-                                                        <div class="c100 p80 blue">
-                                                            <span>80%</span>
-                                                            <div class="slice">
-                                                              <div class="bar"></div>
-                                                              <div class="fill"></div>
-                                                            </div>
-                                                        </div>
-                                                        <p>C/C++</p>
-                                                    </div>
-                                                    <div>
-                                                        <div class="c100 p50 blue">
-                                                            <span>50%</span>
-                                                            <div class="slice">
-                                                              <div class="bar"></div>
-                                                              <div class="fill"></div>
-                                                            </div>
-                                                        </div>
-                                                        <p>Java</p>
-                                                    </div>
-                                                    <div>
-                                                        <div class="c100 p90 blue">
-                                                            <span>90%</span>
-                                                            <div class="slice">
-                                                              <div class="bar"></div>
-                                                              <div class="fill"></div>
-                                                            </div>
-                                                        </div>
-                                                        <p>JavaScript</p>
-                                                    </div>
-                                                    <div>
-                                                        <div class="c100 p95 blue">
-                                                            <span>95%</span>
-                                                            <div class="slice">
-                                                              <div class="bar"></div>
-                                                              <div class="fill"></div>
-                                                            </div>
-                                                        </div>
-                                                        <p>HTML/CSS</p>
-                                                    </div>
-                                                    <div>
-                                                        <div class="c100 p70 blue">
-                                                            <span>70%</span>
-                                                            <div class="slice">
-                                                              <div class="bar"></div>
-                                                              <div class="fill"></div>
-                                                            </div>
-                                                        </div>
-                                                        <p>Angular</p>
-                                                    </div>
-                                                    <div>
-                                                        <div class="c100 p85 blue">
-                                                            <span>85%</span>
-                                                            <div class="slice">
-                                                              <div class="bar"></div>
-                                                              <div class="fill"></div>
-                                                            </div>
-                                                        </div>
-                                                        <p>React</p>
-                                                    </div>
-                                                  </div>
-                                            </li>
-                                        </div>
-                                        <div>
-                                            <li><h3><i class="ion ion-flag"></i>Others</h3></li>
-                                            <li>
-                                                <div class="border-line-h">
-                                                    <div class="name">Sass</div>
-                                                    <div class="spans">
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                                <div class="border-line-h">
-                                                    <div class="name">TypeScript</div>
-                                                    <div class="spans">
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                                <div class="border-line-h">
-                                                    <div class="name">NodeJS</div>
-                                                    <div class="spans">
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                                <div class="border-line-h">
-                                                    <div class="name">MongoDB</div>
-                                                    <div class="spans">
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                                <div class="border-line-h">
-                                                    <div class="name">Redux</div>
-                                                    <div class="spans">
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                                <div class="border-line-h">
-                                                    <div class="name">Machine Learning</div>
-                                                    <div class="spans">
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span class="dot"></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </div>
-                                        <div>
-                                            <li>
-                                                <h3><i class="ion ion-easel"></i>Design</h3>
-                                            </li>
-                                            <li>
-                                                <div class="border-line-h"> 
-                                                    <div class="name">Graphic Design</div>
-                                                    <div class="progress">
-                                                        <div class="percentage" style="width:75%;"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="border-line-h"> 
-                                                    <div class="name">Adobe Photoshop</div>
-                                                    <div class="progress">
-                                                        <div class="percentage" style="width:90%;"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="border-line-h"> 
-                                                    <div class="name">Adobe Illustrator</div>
-                                                    <div class="progress">
-                                                        <div class="percentage" style="width:85%;"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="border-line-h"> 
-                                                    <div class="name">Adobe XD</div>
-                                                    <div class="progress">
-                                                        <div class="percentage" style="width:70%;"></div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </div>
-                                        <div>
-                                            <li><h3><i class="ion ion-android-list"></i>Hobbies</h3></li>
-                                            <li>
-                                                <div style="margin-top: 20px;">
-                                                    <h4>Painting</h4>
-                                                    <p>I love painting and I am a professional Painter and mainly do my works in Oil paint.</p>
-                                                </div>
-                                                <div style="margin-top: 20px;">
-                                                    <h4>Music</h4>
-                                                    <p>I mainly play Hawaiian Guitar but loves to play percussions and write music. I have done a couple of stage performances.</p>
-                                                </div>
-                                            </li>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card works" id="Works">
-                        <div>
-                            <div>
-                                <div class="card--title"><h2><span>L</span>atest Works</h2>
-                                </div>
-                                <div class="works--container">
-                                    <h3><i class="ion ion-code"></i>Coding</h3>
-                                    <div class="image--grid">
-                                        <li>
-                                            <div>
-                                                <h4><a href="https://cliko.in" target="_blank">Cliko</a></h4>
-                                                <p>Its a URL Shortener Product with custom domains, web hooks, analytics added to each link for admins and users
-                                                </p>
-                                            </div>
-                                            <div class="item" style="background-image: url('./assets/img/Works/Cliko.png');"></div>
-                                        </li>
-                                        <li>
-                                            <div class="item" style="background-image: url('./assets/img/Works/ChatApp.png');"></div>
-                                            <div class="text">
-                                                <h4><a target="_blank">Chat App</a></h4>
-                                                <p>A highly equipped chat app with al the best features and UI from WhatsApp Web and enhancements made using React and Mobx
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <h4><a href="https://github.com/KylixMedusa/Whatsapp-Web" target="_blank">WhatsApp Web Clone</a></h4>
-                                                <p>Its a clone of the front end of WhatsApp Web made in Angular.</p>
-                                            </div>
-                                            <div class="item" style="background-image: url('./assets/img/Works/WhatsappWeb.png');"></div>
-                                        </li>
-                                        <li class="large">
-                                            <div class="item keep" style="background-image: url('./assets/img/Works/News\ App.png');"></div>
-                                            <div class="text">
-                                                <h4><a href="https://github.com/KylixMedusa/Triveous-News-App" target="_blank">Triveous News App</a></h4>
-                                                <p>Its a News App made in Angular using News Api(Developers Mode). It shows top, searched and news according to categories.
-                                                    It also uses API load on Pagination for better data handling.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="large">
-                                            <div>
-                                                <h4><a href="http://sortingvisualizerapp.netlify.app/" target="_blank">Sorting Visualizer App</a></h4>
-                                                <p>Its a App made in Angular to visualize several sorting algoriths in various size of arrays. The sorting algoriths used are Bubble Sort, Selection Sort, Merge Sort, Quick Sort, Heap Sort.
-                                                </p>
-                                            </div>
-                                            <div style="display: flex;flex-direction: column; align-self:auto;">
-                                                <div class="item" style="background-image: url('./assets/img/Works/SortingVisualizerApp1.png');"></div>
-                                                <div class="item" style="background-image: url('./assets/img/Works/SortingVisualizerApp2.png');"></div>
-                                            </div>
-                                        </li>
-                                        <li class="large">
-                                            <div class="item" style="display: flex;flex-direction: column; align-self:auto;">
-                                                <div class="item" style="background-image: url('./assets/img/Works/TapTimer1.png');"></div>
-                                                <div class="item" style="background-image: url('./assets/img/Works/TapTimer2.png');"></div>
-                                            </div>
-                                            <div class="text">
-                                                <h4><a href="https://productivity-stopwatch.netlify.app/" target="_blank">Tap Timer</a></h4>
-                                                <p>Its a Time management app made in Angular. Here we can add the tasks we want to do and keep track of time spent in each of them helping in keeping track of productivity. 
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <h4><a href="https://kylixmedusa.github.io/Drawingboard/" target="_blank">Drawing Board</a></h4>
-                                                <p>Its a drawing board made using Vanilla JS and is a fully functional drawing board with different sixes, erasers etc. Works on both mobile and desktop.</p>
-                                            </div>
-                                            <div class="item" style="background-image: url('./assets/img/Works/drawingboard.png');"></div>
-                                        </li>
-                                        <li class="large imageonly">
-                                            <div class="textl">
-                                                <h4><a href="https://kylixmedusa.github.io/front1/" target="_blank">Day and Night Website</a></h4>
-                                                <p>Its a website home page made with various animations jusing CSS and Javascript such as birds, snowfall, rain etc.</p>
-                                            </div>
-                                            <div class="item" style="display: flex;flex-direction: column; align-self:auto;">
-                                                <div class="item" style="background-image: url('./assets/img/Works/front\ \(3\).png');"></div>
-                                                <div class="item" style="background-image: url('./assets/img/Works/front\ \(2\).png');"></div>
-                                            </div>
-                                            <div class="item" style="display: flex;flex-direction: column; align-self:auto;">
-                                                <div class="item" style="background-image: url('./assets/img/Works/front\ \(4\).png');"></div>
-                                                <div class="item" style="background-image: url('./assets/img/Works/front\ \(1\).png');"></div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="item" style="background-image: url('./assets/img/Works/2D\ Ray\ Casting.png');"></div>
-                                            <div class="text">
-                                                <h4><a href="https://kylixmedusa.github.io/2D-Ray-Casting/" target="_blank">2D Ray Casting</a></h4>
-                                                <p>Its a 2D Ray Casting Algorithm made in p5.js. It generates random walls and the light source is mouse controlled.</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <h4>Terrain Generation</h4>
-                                                <p>Its a Terrain Generation algorithm made with perlin noise in Processing environment.</p>
-                                            </div>
-                                            <div class="item" style="background-image: url('./assets/img/Works/Terrain_with_Perlin_Noise.png');"></div>
-                                        </li>
-                                        <li>
-                                            <div class="item" style="background-image: url('./assets/img/Works/Starfield.png');"></div>
-                                            <div class="text">
-                                                <h4>Starfield</h4>
-                                                <p>Its a moving Starfield made in Processing enviroment. The travelling speed increases according to the mouse movement.</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <h4><a href="https://kylixmedusa.github.io/Snow-fall/" target="_blank">Snowfall</a></h4>
-                                                <p>Its a Snowfall simulation made in p5.js. It has added wind force on mouse move.</p>
-                                            </div>
-                                            <div class="item" style="background-image: url('./assets/img/Works/Snow\ Fall.png');"></div>
-                                        </li>
-                                        <li>
-                                            <div class="item" style="background-image: url('./assets/img/Works/fractaltree.png');"></div>
-                                            <div class="text">
-                                                <h4>Fractal Tree</h4>
-                                                <p>Its a fractal tree made in processing enviroment.</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <h4><a href="https://kylixmedusa.github.io/Tic-Tac-Toe/" target="_blank">Tic Tac Toe</a></h4>
-                                                <p>Its a Tic Tac Toe game made in p5.js. It uses MiniMax Algorithm as computer player.</p>
-                                            </div>
-                                            <div class="item" style="background-image: url('./assets/img/Works/Tictactoe.png');"></div>
-                                        </li>
-                                    </div>
-                                    <h3><i class="ion ion-paintbrush"></i>Art</h3>
-                                    <div class="paintings--grid">
-                                        <div class="item long" style="background-image: url('./assets/img/painting1.jpg');"></div>
-                                        <div class="item long" style="background-image: url('./assets/img/painting\ 2.jpg');"></div>
-                                        <div class="item" style="background-image: url('./assets/img/design1.jpg');"></div>
-                                        <div class="item" style="background-image: url('./assets/img/design2.jpg');"></div>
-                                        <div class="item wide" style="background-image: url('./assets/img/painting3.jpg');"></div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card blog" id="Blog">
-                        <div>
-                            <div>
-                                <div class="card--title"><h2><span>L</span>atest Posts</h2></div>
-                                <div class="blog--image"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card contact" id="Contact">
-                        <div>
-                            <div>
-                                <div class="card--title"><h2><span>G</span>et in Touch</h2></div>
-                                <div class="map--container">
-                                    <div id="map"></div>
-                                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4130.883714505203!2d88.82473814579852!3d26.57764470128218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e387b49655a5f5%3A0x10b84931dc376124!2zMjbCsDM0JzI5LjMiTiA4OMKwNDknMjkuOSJF!5e0!3m2!1sen!2sin!4v1596124387479!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 26.575724, 88.825255 -->
-                                    <div class="card--grid">
-                                        <li><p class="highlight">Address.....</p>West Bengal, India</li>
-                                        <li><p class="highlight">Phone.....</p>+91 9679883985</li>
-                                        <li><p class="highlight">Email.....</p>ayush.agarwalmng@gmail.com</li>
-                                        <li><p class="highlight">Freelance.....</p>Available</li>
-                                    </div>
-                                </div>
-                                <div class="card--title"><h2><span>C</span>ontact Form</h2></div>
-                                <form action="send_message.php" method="post">
-                                    <div class="card--grid">
-                                        <div class="input--div">
-                                            <input onfocus="addfocus(this)" onblur="addblur(this)" type="text" name="name" id="name" required>
-                                            <label for="name">Name</label>
-                                        </div>
-                                        <div class="input--div">
-                                            <input onfocus="addfocus(this)" onblur="addblur(this)" type="email" name="email" id="email" required>
-                                            <label for="email">Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="input--div">
-                                        <textarea onfocus="addfocus(this)" onblur="addblur(this)" name="subject" id="subject"></textarea>
-                                        <label for="Subject">Subject</label>
-                                    </div>
-                                    <div class="input--div">
-                                        <textarea onfocus="addfocus(this)" onblur="addblur(this)" name="message" id="message"></textarea>
-                                        <label for="Your Message">Your Message</label>
-                                    </div>
-                                    <div style="text-align:center;"id="ajaxDiv"></div>
-                                    <input type="submit" value="Send Message" id="submit">
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script src="./js/script.js"></script>
-        <script src="./js/typewriter.js"></script>
-        <script src="./js/map.js"></script>
-        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAja8NsoCX_c5CL7eBi_f_dpH1xyGAggFI&callback=initMap"></script>
+<html lang="en">
 
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="KylixMedusa (Aayush Agarwal) Portfolio Website">
+    <meta name="theme-color" content="#7276d1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="xo-8s4sXe9B_mu2XfUGMdtAbfdb-RyOqeTbCebnV3MQ" />
+    <link rel=icon href="./assets/img/favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/resume.css">
+    <link rel="stylesheet" href="./css/ionicons.css">
+    <link rel="stylesheet" href="./css/progressbar.css">
+    <link rel="stylesheet" href="./css/works.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <title>KylixMedusa (Aayush Agarwal)</title>
+</head>
+
+<body>
+    <div class="loader" id="loader">
+        <div class="circle one"></div>
+        <div class="circle two"></div>
+    </div>
+    <div class="main">
+        <div class="dark--toggle" onclick="darktoggle()">
+            <img src="./assets/img/sun.png" alt="🟡">
+        </div>
+        <div class="header">
+            <nav id="menu">
+                <li class="active" onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-person"></i>
+                    <p>About</p>
+                </li>
+                <li onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-android-list"></i>
+                    <p>Resume</p>
+                </li>
+                <li onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-paintbrush"></i>
+                    <p>Works</p>
+                </li>
+                <li onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-chatbox-working"></i>
+                    <p>Blog</p>
+                </li>
+                <li onclick="cardtoggle(this)"><i style="font-size: 21px;" class="ion ion-at"></i>
+                    <p>Contact</p>
+                </li>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="image"></div>
+                <div class="container--div">
+                    <div class="conatiner--contents">
+                        <h2>Aayush Agarwal</h2>
+                        <span class="txt-type" data-wait="3000"
+                            data-words='["Web Developer","App Developer", "Competitive Coder", "Designer", "Musician", "Painter"]'></span>
+                        <div class="socials">
+                            <a title="Facebook" href="https://www.facebook.com/people/Aayush-Agarwal/100004764855806"
+                                target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a title="Instagram" href="https://instagram.com/KylixMedusa" target="_blank"><i
+                                    class="fa fa-instagram"></i></a>
+                            <a title="Twitter" href="https://twitter.com/Aayush967988" target="_blank"><i
+                                    class="fa fa-twitter"></i></a>
+                            <a title="Github" href="https://github.com/KylixMedusa" target="_blank"><i
+                                    class="fa fa-github"></i></a>
+                            <a title="Behance" href="https://www.behance.net/KylixMedusa" target="_blank"><i
+                                    class="fa fa-behance"></i></a>
+                            <a title="LinkedIn" href="https://www.linkedin.com/in/aayush-agarwal-214b5a17b/"
+                                target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <a href="./assets/Aayush-Agarwal-Resume.pdf" download>Download CV &nbsp;<i
+                                style="font-size: 20px;" class="ion ion-archive"></i></a>
+                        <a style="cursor:pointer;" onclick="opencontacts()">Contact me &nbsp;<i
+                                class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper" id="wrapper">
+                <div class="card about fadeIn" id="About">
+                    <div>
+                        <div>
+                            <div class="card--title">
+                                <h2><span>A</span>bout Me</h2>
+                            </div>
+                            <div class="card--grid head">
+                                <div>Hello, I am Aayush Agarwal. I have rich interest in Web Development, App Development, Designing. I am a professional painter and a musician. Born in Siliguri, West
+                                    Bengal. It has been a long journey till here. I hope this website will interest you
+                                    in my life.</div>
+                                <div>
+                                    <li>
+                                        <p class="highlight">Age.....</p>
+                                        <p>19</p>
+                                    </li>
+                                    <li>
+                                        <p class="highlight">Status.....</p>
+                                        <p>Student</p>
+                                    </li>
+                                    <li>
+                                        <p class="highlight">Freelancer.....</p>
+                                        <p>Available</p>
+                                    </li>
+                                    <li>
+                                        <p class="highlight">Residence.....</p>
+                                        <p>India</p>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="card--title">
+                                <h2><span>M</span>y Fields</h2>
+                            </div>
+                            <div class="card--grid fields">
+                                <li>
+                                    <div class="circle"><i class="ion ion-code"></i></div>
+                                    <h3>Software Development</h3>
+                                    <p>I love working on Web and App Technologies specially on the front end. I am currently
+                                        exploring this field hugely.</p>
+                                </li>
+                                <li>
+                                    <div class="circle"><i class="ion ion-easel"></i></div>
+                                    <h3>Graphic Design</h3>
+                                    <p>I have good interest in graphic design. Commonly I use Illustrator And Photoshop
+                                        for the purpose. UI/UX design is also one of my interests.</p>
+                                </li>
+                                <li>
+                                    <div class="circle"><i class="ion ion-paintbrush"></i></div>
+                                    <h3>Painting</h3>
+                                    <p>I love painting since chilidhood. I am a professional painter and mostly do
+                                        portraits with Oil paints.</p>
+                                </li>
+                                <li>
+                                    <div class="circle"><i style="font-size: xx-large;" class="fa fa-microphone"></i>
+                                    </div>
+                                    <h3>Music</h3>
+                                    <p>I play Hawaiian Guitar, Spanish Guitar and some Indian percussions. I love to write and sing
+                                        songs in my leisure hours.</p>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card resume" id="Resume">
+                    <div>
+                        <div>
+                            <div class="card--title">
+                                <h2><span>R</span>esume</h2>
+                            </div>
+                            <div class="resume--container">
+                                <h3 style="margin-top: 30px;"><i class="ion ion-briefcase"></i>EXPERIENCE</h3>
+                                <div class="card--grid">
+                                    <li>
+                                        <div class="card-pill">December(2020)-March(2021)</div>
+                                        <h4>Software Developer</h4>
+                                        <a href="https://topleap.co" target="_blank"><small>Key2IQ(Topleap)</small></a>
+                                        <p>Built a Resume Builder, Blogs Section etc. Was the sole front end developer
+                                            for the project. Used React as the main Framework. Participated in deploying
+                                            it in Google App Engine. Working on resume builder app on Flutter</p>
+                                    </li>
+
+                                    <li>
+                                        <div class="card-pill pop">May(2020)-Present</div>
+                                        <h4>Software Developer</h4>
+                                        <a href="https://mindwebs.org" target="_blank"><small>Mind Webs</small></a>
+                                        <p>esigned and built Front End of several web app and projects in React and
+                                            Angular. Worked on backend in Node for a couple of projects. Worked on
+                                            Flutter for a learning app.</p>
+                                    </li>
+                                    <li>
+                                        <div class="card-pill">August-November(2020)</div>
+                                        <h4>Software Developer</h4>
+                                        <small>Triveous Private Ltd.</small>
+                                        <p>Working on their products on React, Firebase etc. for web extension and web
+                                            app. Learning new technologies and hence implementing in their product.</p>
+                                    </li>
+                                    <li>
+                                        <div class="card-pill pop">January(2020)-Present</div>
+                                        <h4>Web Development TA</h4>
+                                        <small>Developers Students' Club KGEC (DSC)</small>
+                                        <p>Work on various activities of Web Development and involve in development
+                                            community and lead team for varoous projects</p>
+                                    </li>
+                                    <li>
+                                        <div class="card-pill">July - August (2020)</div>
+                                        <h4>CSS Developer</h4>
+                                        <small>Codeacious Technologies</small>
+                                        <p>Converting designs into HTML and CSS code for various projects</p>
+                                    </li>
+                                    <li>
+                                        <div class="card-pill pop">November(2019)-Present</div>
+                                        <h4>Graphic Designer</h4>
+                                        <a href="https://shutterbugkgec.in" target="_blank"><small>ShutterBug
+                                                KGEC</small></a>
+                                        <p>Designing posters and graphics for events and various requirements</p>
+                                    </li>
+                                </div>
+                                <h3><i class="ion ion-university"></i>EDUCATION</h3>
+                                <div class="card--grid">
+                                    <li>
+                                        <div class="card-pill pop">2019-Present</div>
+                                        <h4>B.Tech in IT</h4>
+                                        <small>Kalyani Government Engineering College</small>
+                                        <p>Pursuing graduation and expected to complete in 2023</p>
+                                    </li>
+                                    <li>
+                                        <div class="card-pill">2019</div>
+                                        <h4>12th</h4>
+                                        <small>DAV School, Siliguri(AISSCE)</small>
+                                        <p>Completed my 12th with Physics, Chemistry, Mathematics and Computer Science
+                                            with 94.7%</p>
+                                    </li>
+                                    <li>
+                                        <div class="card-pill">2017</div>
+                                        <h4>10th</h4>
+                                        <small>Saint Paul's School(CICSE)</small>
+                                        <p>Completed my 10th with Computer Science as external subject with 93.40%</p>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="card--title">
+                                <h2><span>M</span>y Skills</h2>
+                            </div>
+                            <div class="resume--container">
+                                <div class="card--grid">
+                                    <div>
+                                        <li>
+                                            <h3><i class="ion ion-code"></i>Languages</h3>
+                                        </li>
+                                        <li>
+                                            <div class="progress-wrapper">
+                                                <div>
+                                                    <div class="c100 p80 blue">
+                                                        <span>80%</span>
+                                                        <div class="slice">
+                                                            <div class="bar"></div>
+                                                            <div class="fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <p>C/C++</p>
+                                                </div>
+                                                <div>
+                                                    <div class="c100 p90 blue">
+                                                        <span>90%</span>
+                                                        <div class="slice">
+                                                            <div class="bar"></div>
+                                                            <div class="fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <p>JavaScript</p>
+                                                </div>
+                                                <div>
+                                                    <div class="c100 p95 blue">
+                                                        <span>95%</span>
+                                                        <div class="slice">
+                                                            <div class="bar"></div>
+                                                            <div class="fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <p>HTML/CSS</p>
+                                                </div>
+                                                <div>
+                                                    <div class="c100 p70 blue">
+                                                        <span>70%</span>
+                                                        <div class="slice">
+                                                            <div class="bar"></div>
+                                                            <div class="fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <p>Angular</p>
+                                                </div>
+                                                <div>
+                                                    <div class="c100 p85 blue">
+                                                        <span>85%</span>
+                                                        <div class="slice">
+                                                            <div class="bar"></div>
+                                                            <div class="fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <p>React</p>
+                                                </div>
+
+                                                <div>
+                                                    <div class="c100 p60 blue">
+                                                        <span>60%</span>
+                                                        <div class="slice">
+                                                            <div class="bar"></div>
+                                                            <div class="fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <p>Flutter</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div>
+                                        <li>
+                                            <h3><i class="ion ion-flag"></i>Others</h3>
+                                        </li>
+                                        <li>
+                                            <div class="border-line-h">
+                                                <div class="name">Sass</div>
+                                                <div class="spans">
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="border-line-h">
+                                                <div class="name">TypeScript</div>
+                                                <div class="spans">
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="border-line-h">
+                                                <div class="name">NodeJS</div>
+                                                <div class="spans">
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="border-line-h">
+                                                <div class="name">MongoDB</div>
+                                                <div class="spans">
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="border-line-h">
+                                                <div class="name">Redux</div>
+                                                <div class="spans">
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <div class="border-line-h">
+                                                <div class="name">Machine Learning</div>
+                                                <div class="spans">
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span class="dot"></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div>
+                                        <li>
+                                            <h3><i class="ion ion-easel"></i>Design</h3>
+                                        </li>
+                                        <li>
+                                            <div class="border-line-h">
+                                                <div class="name">Graphic Design</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:75%;"></div>
+                                                </div>
+                                            </div>
+                                            <div class="border-line-h">
+                                                <div class="name">Adobe Photoshop</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:90%;"></div>
+                                                </div>
+                                            </div>
+                                            <div class="border-line-h">
+                                                <div class="name">Adobe Illustrator</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:85%;"></div>
+                                                </div>
+                                            </div>
+                                            <div class="border-line-h">
+                                                <div class="name">Adobe XD</div>
+                                                <div class="progress">
+                                                    <div class="percentage" style="width:70%;"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div>
+                                        <li>
+                                            <h3><i class="ion ion-android-list"></i>Hobbies</h3>
+                                        </li>
+                                        <li>
+                                            <div style="margin-top: 20px;">
+                                                <h4>Painting</h4>
+                                                <p>I love painting and I am a professional Painter and mainly do my
+                                                    works in Oil paint.</p>
+                                            </div>
+                                            <div style="margin-top: 20px;">
+                                                <h4>Music</h4>
+                                                <p>I mainly play Hawaiian Guitar and Spanish Guitar but also love to play percussions and write
+                                                    music. I have done a couple of stage performances.</p>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card works" id="Works">
+                    <div>
+                        <div>
+                            <div class="card--title">
+                                <h2><span>L</span>atest Works</h2>
+                            </div>
+                            <div class="works--container">
+                                <h3><i class="ion ion-code"></i>Coding</h3>
+                                <div class="image--grid">
+                                    <li>
+                                        <div>
+                                            <h4><a href="https://cliko.in" target="_blank">Cliko</a></h4>
+                                            <p>Its a URL Shortener Product with custom domains, web hooks, analytics
+                                                added to each link for admins and users
+                                            </p>
+                                        </div>
+                                        <div class="item"
+                                            style="background-image: url('./assets/img/Works/Cliko.png');"></div>
+                                    </li>
+                                    <li>
+                                        <div class="item"
+                                            style="background-image: url('./assets/img/Works/ChatApp.png');"></div>
+                                        <div class="text">
+                                            <h4><a target="_blank">Chat App</a></h4>
+                                            <p>A highly equipped chat app with al the best features and UI from WhatsApp
+                                                Web and enhancements made using React and Mobx
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <h4><a href="https://github.com/KylixMedusa/Whatsapp-Web"
+                                                    target="_blank">WhatsApp Web Clone</a></h4>
+                                            <p>Its a clone of the front end of WhatsApp Web made in Angular.</p>
+                                        </div>
+                                        <div class="item"
+                                            style="background-image: url('./assets/img/Works/WhatsappWeb.png');"></div>
+                                    </li>
+                                    <li class="large">
+                                        <div class="item keep"
+                                            style="background-image: url('./assets/img/Works/News\ App.png');"></div>
+                                        <div class="text">
+                                            <h4><a href="https://github.com/KylixMedusa/Triveous-News-App"
+                                                    target="_blank">Triveous News App</a></h4>
+                                            <p>Its a News App made in Angular using News Api(Developers Mode). It shows
+                                                top, searched and news according to categories.
+                                                It also uses API load on Pagination for better data handling.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="large">
+                                        <div>
+                                            <h4><a href="http://sortingvisualizerapp.netlify.app/"
+                                                    target="_blank">Sorting Visualizer App</a></h4>
+                                            <p>Its a App made in Angular to visualize several sorting algoriths in
+                                                various size of arrays. The sorting algoriths used are Bubble Sort,
+                                                Selection Sort, Merge Sort, Quick Sort, Heap Sort.
+                                            </p>
+                                        </div>
+                                        <div style="display: flex;flex-direction: column; align-self:auto;">
+                                            <div class="item"
+                                                style="background-image: url('./assets/img/Works/SortingVisualizerApp1.png');">
+                                            </div>
+                                            <div class="item"
+                                                style="background-image: url('./assets/img/Works/SortingVisualizerApp2.png');">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="large">
+                                        <div class="item"
+                                            style="display: flex;flex-direction: column; align-self:auto;">
+                                            <div class="item"
+                                                style="background-image: url('./assets/img/Works/TapTimer1.png');">
+                                            </div>
+                                            <div class="item"
+                                                style="background-image: url('./assets/img/Works/TapTimer2.png');">
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <h4><a href="https://productivity-stopwatch.netlify.app/"
+                                                    target="_blank">Tap Timer</a></h4>
+                                            <p>Its a Time management app made in Angular. Here we can add the tasks we
+                                                want to do and keep track of time spent in each of them helping in
+                                                keeping track of productivity.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <h4><a href="https://kylixmedusa.github.io/Drawingboard/"
+                                                    target="_blank">Drawing Board</a></h4>
+                                            <p>Its a drawing board made using Vanilla JS and is a fully functional
+                                                drawing board with different sixes, erasers etc. Works on both mobile
+                                                and desktop.</p>
+                                        </div>
+                                        <div class="item"
+                                            style="background-image: url('./assets/img/Works/drawingboard.png');"></div>
+                                    </li>
+                                    <li class="large imageonly">
+                                        <div class="textl">
+                                            <h4><a href="https://kylixmedusa.github.io/front1/" target="_blank">Day and
+                                                    Night Website</a></h4>
+                                            <p>Its a website home page made with various animations jusing CSS and
+                                                Javascript such as birds, snowfall, rain etc.</p>
+                                        </div>
+                                        <div class="item"
+                                            style="display: flex;flex-direction: column; align-self:auto;">
+                                            <div class="item"
+                                                style="background-image: url('./assets/img/Works/front\ \(3\).png');">
+                                            </div>
+                                            <div class="item"
+                                                style="background-image: url('./assets/img/Works/front\ \(2\).png');">
+                                            </div>
+                                        </div>
+                                        <div class="item"
+                                            style="display: flex;flex-direction: column; align-self:auto;">
+                                            <div class="item"
+                                                style="background-image: url('./assets/img/Works/front\ \(4\).png');">
+                                            </div>
+                                            <div class="item"
+                                                style="background-image: url('./assets/img/Works/front\ \(1\).png');">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item"
+                                            style="background-image: url('./assets/img/Works/2D\ Ray\ Casting.png');">
+                                        </div>
+                                        <div class="text">
+                                            <h4><a href="https://kylixmedusa.github.io/2D-Ray-Casting/"
+                                                    target="_blank">2D Ray Casting</a></h4>
+                                            <p>Its a 2D Ray Casting Algorithm made in p5.js. It generates random walls
+                                                and the light source is mouse controlled.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <h4>Terrain Generation</h4>
+                                            <p>Its a Terrain Generation algorithm made with perlin noise in Processing
+                                                environment.</p>
+                                        </div>
+                                        <div class="item"
+                                            style="background-image: url('./assets/img/Works/Terrain_with_Perlin_Noise.png');">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item"
+                                            style="background-image: url('./assets/img/Works/Starfield.png');"></div>
+                                        <div class="text">
+                                            <h4>Starfield</h4>
+                                            <p>Its a moving Starfield made in Processing enviroment. The travelling
+                                                speed increases according to the mouse movement.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <h4><a href="https://kylixmedusa.github.io/Snow-fall/"
+                                                    target="_blank">Snowfall</a></h4>
+                                            <p>Its a Snowfall simulation made in p5.js. It has added wind force on mouse
+                                                move.</p>
+                                        </div>
+                                        <div class="item"
+                                            style="background-image: url('./assets/img/Works/Snow\ Fall.png');"></div>
+                                    </li>
+                                    <li>
+                                        <div class="item"
+                                            style="background-image: url('./assets/img/Works/fractaltree.png');"></div>
+                                        <div class="text">
+                                            <h4>Fractal Tree</h4>
+                                            <p>Its a fractal tree made in processing enviroment.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <h4><a href="https://kylixmedusa.github.io/Tic-Tac-Toe/" target="_blank">Tic
+                                                    Tac Toe</a></h4>
+                                            <p>Its a Tic Tac Toe game made in p5.js. It uses MiniMax Algorithm as
+                                                computer player.</p>
+                                        </div>
+                                        <div class="item"
+                                            style="background-image: url('./assets/img/Works/Tictactoe.png');"></div>
+                                    </li>
+                                </div>
+                                <h3><i class="ion ion-paintbrush"></i>Art</h3>
+                                <div class="paintings--grid">
+                                    <div class="item long" style="background-image: url('./assets/img/painting1.jpg');">
+                                    </div>
+                                    <div class="item long"
+                                        style="background-image: url('./assets/img/painting\ 2.jpg');"></div>
+                                    <div class="item" style="background-image: url('./assets/img/design1.jpg');"></div>
+                                    <div class="item" style="background-image: url('./assets/img/design2.jpg');"></div>
+                                    <div class="item wide" style="background-image: url('./assets/img/painting3.jpg');">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card blog" id="Blog">
+                    <div>
+                        <div>
+                            <div class="card--title">
+                                <h2><span>L</span>atest Posts</h2>
+                            </div>
+                            <div class="blog--image"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card contact" id="Contact">
+                    <div>
+                        <div>
+                            <div class="card--title">
+                                <h2><span>G</span>et in Touch</h2>
+                            </div>
+                            <div class="map--container">
+                                <!-- <div id="map"></div> -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4130.883714505203!2d88.82473814579852!3d26.57764470128218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e387b49655a5f5%3A0x10b84931dc376124!2zMjbCsDM0JzI5LjMiTiA4OMKwNDknMjkuOSJF!5e0!3m2!1sen!2sin!4v1596124387479!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                <div class="card--grid">
+                                    <li>
+                                        <p class="highlight">Address.....</p>West Bengal, India
+                                    </li>
+                                    <li>
+                                        <p class="highlight">Phone.....</p>+91 9679883985
+                                    </li>
+                                    <li>
+                                        <p class="highlight">Email.....</p>ayush.agarwalmng@gmail.com
+                                    </li>
+                                    <li>
+                                        <p class="highlight">Freelance.....</p>Available
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="card--title">
+                                <h2><span>C</span>ontact Form</h2>
+                            </div>
+                            <form action="send_message.php" method="post">
+                                <div class="card--grid">
+                                    <div class="input--div">
+                                        <input onfocus="addfocus(this)" onblur="addblur(this)" type="text" name="name"
+                                            id="name" required>
+                                        <label for="name">Name</label>
+                                    </div>
+                                    <div class="input--div">
+                                        <input onfocus="addfocus(this)" onblur="addblur(this)" type="email" name="email"
+                                            id="email" required>
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="input--div">
+                                    <textarea onfocus="addfocus(this)" onblur="addblur(this)" name="subject"
+                                        id="subject"></textarea>
+                                    <label for="Subject">Subject</label>
+                                </div>
+                                <div class="input--div">
+                                    <textarea onfocus="addfocus(this)" onblur="addblur(this)" name="message"
+                                        id="message"></textarea>
+                                    <label for="Your Message">Your Message</label>
+                                </div>
+                                <div style="text-align:center;" id="ajaxDiv"></div>
+                                <input type="submit" value="Send Message" id="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/typewriter.js"></script>
+    <script src="./js/map.js"></script>
+    <!-- <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAja8NsoCX_c5CL7eBi_f_dpH1xyGAggFI&callback=initMap"></script> -->
+
+</body>
+
 </html>
