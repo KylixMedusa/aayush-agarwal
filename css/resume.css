@@ -34,6 +34,9 @@
     color:gray;
     margin: 20px 0;
 }
+.resume .card--grid a{
+    color:inherit;
+}
 .resume .card--grid p{
     font-size: 0.9rem;
     margin-top: 10px;
